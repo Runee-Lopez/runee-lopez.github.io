@@ -1,0 +1,23 @@
+.button{
+    opacity: 0.71;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 71);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 71);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+
+}
+.bg{
+    background-color: #ffffff;
+border: 2px solid #999999;
+
+}
+.a1{
+    background-color: #5CCCCC;
+    border: 2px solid #3CCCCC;
+}
+
+.image-1{
+    width: 50px;
+    height: 50px;
+}
